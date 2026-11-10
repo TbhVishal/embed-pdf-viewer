@@ -1,5 +1,11 @@
 # @embedpdf/engine-services
 
+## 3.2.0
+
+### Minor Changes
+
+- [#1049](https://github.com/embedpdf/embed-pdf-viewer/pull/1049) by [@bobsingor](https://github.com/bobsingor) – `annotations.update` and `forms.updateWidget` write a new `nm` to the annotation's own `/NM`, or remove it for `null`. The object, its replies, its appearance and its other keys stay as they are. A name another annotation on the page has is refused with `InvalidArg`. An empty name removes `/NM`, as a create given one writes none.
+
 ## 3.1.0
 
 ### Minor Changes
